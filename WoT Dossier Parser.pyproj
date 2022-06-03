@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c20f87c7-a6fe-46b5-b40a-13a056cc97fc}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>wotdc2j.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>NRXWO2LOGIXHAMROO5XXE3DEN5THIYLONNZS4ZLVHIZDAMBRGY5UEYLEIJ2XI5DPNY5VA3DBPFSXEQLDMNXXK3TU.dat -f</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DamageEvents.py" />
+    <Compile Include="SafeUnpickler.py" />
+    <Compile Include="wotdc2j.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="structures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="License.txt" />
+    <Content Include="maps.json" />
+    <Content Include="README.md" />
+    <Content Include="structures\structures_10.json" />
+    <Content Include="structures\structures_101.json" />
+    <Content Include="structures\structures_100.json" />
+    <Content Include="structures\structures_17.json" />
+    <Content Include="structures\structures_18.json" />
+    <Content Include="structures\structures_20.json" />
+    <Content Include="structures\structures_22.json" />
+    <Content Include="structures\structures_24.json" />
+    <Content Include="structures\structures_26.json" />
+    <Content Include="structures\structures_27.json" />
+    <Content Include="structures\structures_28.json" />
+    <Content Include="structures\structures_29.json" />
+    <Content Include="structures\structures_65.json" />
+    <Content Include="structures\structures_69.json" />
+    <Content Include="structures\structures_77.json" />
+    <Content Include="structures\structures_81.json" />
+    <Content Include="structures\structures_85.json" />
+    <Content Include="structures\structures_87.json" />
+    <Content Include="structures\structures_88.json" />
+    <Content Include="structures\structures_89.json" />
+    <Content Include="structures\structures_92.json" />
+    <Content Include="structures\structures_94.json" />
+    <Content Include="structures\structures_95.json" />
+    <Content Include="structures\structures_96.json" />
+    <Content Include="structures\structures_97.json" />
+    <Content Include="structures\structures_98.json" />
+    <Content Include="structures\structures_99.json" />
+    <Content Include="tanks.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

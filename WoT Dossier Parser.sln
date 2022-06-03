@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WoT Dossier Parser", "WoT Dossier Parser.pyproj", "{C20F87C7-A6FE-46B5-B40A-13A056CC97FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C20F87C7-A6FE-46B5-B40A-13A056CC97FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20F87C7-A6FE-46B5-B40A-13A056CC97FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {720A7489-9592-4DD9-BA2B-95A46E3116CC}
+	EndGlobalSection
+EndGlobal
